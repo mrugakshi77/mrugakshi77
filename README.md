@@ -28,7 +28,7 @@ End-to-end web application predicting regulatory impacts of **22M+ noncoding var
 
 ---
 
-### 🧬 [Multiome Processing Pipeline]
+### 🧬 snMultiome Processing Pipeline
 Production Snakemake pipeline for **snRNA-seq + snATAC-seq** analysis in Alzheimer's/Parkinson's research. Optimized for HPC with 40% compute reduction through parallelization and sample deconvolution.
 
 **Stack:** Snakemake, Python, HPC, Conda
