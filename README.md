@@ -1,6 +1,6 @@
-# Mrugakshi Chidrawar | Bioinformatics Software Engineer 🧬💻
+# Mrugakshi Chidrawar | Bioinformatics Engineer 🧬💻
 
-**Building scalable genomic analysis tools at the intersection of biology and software engineering**
+**Building scalable genomic analysis tools and pipelines at the intersection of biology and software engineering**
 
 I develop production-grade bioinformatics pipelines and interactive web applications that transform complex sequencing data into actionable insights. My work spans variant effect prediction, single-cell multi-omics, and high-throughput workflow automation.
 
