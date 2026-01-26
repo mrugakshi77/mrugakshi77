@@ -68,7 +68,7 @@ Previously: **Bioinformatician @ Gladstone Institutes (Corces Lab)** | **Bioinfo
 
 ## 📡 Connect
 
-**LinkedIn:** [Your Profile](https://www.linkedin.com/in/mrugakshi-chidrawar-827127179/) • **Email:** mrugakshi77@gmail.com
+**[LinkedIn Profile](https://www.linkedin.com/in/mrugakshi-chidrawar-827127179/)** • **Email:** mrugakshi77@gmail.com
 
 ---
 
