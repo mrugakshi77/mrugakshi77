@@ -1,75 +1,102 @@
-# Mrugakshi Chidrawar | Bioinformatics Engineer 🧬💻
+# Hi, I'm Mrugakshi 👋
 
-**Building scalable genomic analysis tools and pipelines at the intersection of biology and software engineering**
+**Software Engineer** · Data Engineering · Machine Learning · Full-Stack Development
 
-I develop production-grade bioinformatics pipelines and interactive web applications that transform complex sequencing data into actionable insights. My work spans variant effect prediction, single-cell multi-omics, and high-throughput workflow automation.
+I build production-grade data pipelines, ML-backed web applications, and scalable backend systems. My engineering experience comes from working with some of the most complex data in existence — high-dimensional genomic datasets with millions of features, terabyte-scale sequencing outputs, and multi-modal data that demands both statistical rigor and systems thinking to process reliably.
+
+That background translates directly: 
+- batch correction → data normalization at scale
+- pipeline parallelization on HPC clusters → distributed workflow orchestration
+- variant effect prediction over 22M records → large-scale feature engineering and low-latency retrieval systems.
 
 ---
 
 ## 🛠 Tech Stack
 
-**Genomics & Analysis**  
-NGS (RNA-seq, ATAC-seq, Multiome) • GWAS • Variant Effect Prediction • Statistical Genetics • Single-Cell Analysis
+**Languages & Frameworks**
 
-**Engineering & Infrastructure**  
-Python • R • Snakemake • Nextflow • HPC Optimization • Docker/Conda • Flask • R Shiny • Vue.js • HDF5 • Git
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white)
 
-**Research Focus**  
-Alzheimer's & Parkinson's Disease • Regulatory Genomics • Cell-Type Specific Analysis • Deep Learning Integration
+**Data & Infrastructure**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![HPC](https://img.shields.io/badge/HPC-Slurm-blue?style=flat)
+![Snakemake](https://img.shields.io/badge/Snakemake-workflow-green?style=flat)
+
+**ML & Analysis**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+
+*Deep Learning · Statistical Modeling · Dimensionality Reduction · Clustering · Data Visualization*
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🔬 [Variant Effect Prediction Platform](https://vep.corces.gladstone.org/)
-End-to-end web application predicting regulatory impacts of **22M+ noncoding variants** using cell-type-specific deep learning models (ChromBPNet). Features custom HDF5 backend for fast retrieval and downloadable high-resolution visualizations.
+### 🔎 [Variant Effect Prediction Platform](https://vep.corces.gladstone.org/)
+Full-stack web app serving predictions over **22M+ genomic variant records** from ChromBPNet, a deep learning model for regulatory variant effect prediction. Developed an intuitive User Interface and built a custom HDF5 database integration for fast retrieval at scale, batch querying for simultaneous multi-variant processing, DeepSHAP-based model interpretation, expanded support for multiple variant input types, and downloadable high-resolution visualizations.
 
-**Stack:** Python, Flask, Vue.js, HDF5, ChromBPNet
+`Python` `Flask` `JavaScript` `HTML/CSS` `HDF5` `ChromBPNet` `SHAP`
 
----
-
-### 🧬 snMultiome Processing Pipeline
-Production Snakemake pipeline for **snRNA-seq + snATAC-seq** analysis in Alzheimer's/Parkinson's research. Optimized for HPC with 40% compute reduction through parallelization and sample deconvolution.
-
-**Stack:** Snakemake, Python, HPC, Conda
+> *Engineering parallels: large-scale feature store · batch API design · custom indexing · ML interpretability · UI accessibility*
 
 ---
 
-### 📊 [CHOIR Single-Cell Reanalysis](https://github.com/mrugakshi77/CHOIR_Chen_et_al_2017_Comparison)
-Refined mouse hypothalamus scRNA-seq clustering (45→47 clusters), identifying distinct OPC subtypes through advanced computational methods, GO enrichment, and module scoring.
+### ⚙️ Multi-Omics Processing Pipeline
+Production pipeline integrating gene expression and chromatin accessibility data from single-cell sequencing experiments. Incorporated Demuxlet for sample deconvolution and multiplet detection, improving downstream data reliability. Engineered for HPC with a **40% compute reduction** through parallelization, automated QC, and modular design.
 
-**Stack:** R, Seurat, CHOIR, ggplot2
+`Python` `R` `Snakemake` `HPC` `Conda`
 
----
-
-### 🧪 [Interactive RNA-seq Explorer](https://github.com/mrugakshi77/RNA-seq-Data-Analysis-R-Shiny-Application)
-R Shiny application for differential expression analysis with integrated DESeq2, PCA visualization, and dynamic filtering.
-
-**Stack:** R Shiny, DESeq2, ggplot2
+> *Engineering parallels: multi-modal ETL · workflow orchestration · compute optimization · data quality*
 
 ---
 
-## 💡 What I Do Best
+### 📊 scRNA-seq Clustering & Cell Subtype Discovery
+Reanalyzed a mouse hypothalamus single-cell RNA-seq dataset (~45 clusters, tens of thousands of cells, hundreds of gene features) using CHOIR, resolving two previously conflated OPC subtypes. Validated findings with GO enrichment analysis and gene module scoring. The core problem — finding structure in high-cardinality, sparse data — maps directly to customer segmentation or anomaly detection at scale.
 
-✅ Build **end-to-end solutions** from data processing to web deployment  
-✅ Design **scalable HPC workflows** that handle production-scale datasets  
-✅ Create **user-friendly tools** that make complex analyses accessible to biologists  
-✅ Bridge **computational methods** with biological interpretation
+`R` `Seurat` `CHOIR` `ggplot2`
+
+> *Engineering parallels: unsupervised ML · high-dimensional sparse data · statistical validation*
+
+---
+
+### 📈 Interactive RNA-seq Differential Expression Dashboard
+R Shiny application for exploratory bulk RNA-seq analysis — DESeq2-powered statistical testing, PCA visualization across hundreds of samples, volcano plots, and dynamic filtering UI designed for wet-lab biologists with no coding background.
+
+`R Shiny` `DESeq2` `ggplot2`
+
+> *Engineering parallels: data visualization · interactive dashboard design · accessible tooling for non-technical users*
+
+---
+
+## 💡 What I Bring
+
+- **End-to-end ownership** — data ingestion → processing → API → deployed UI
+- **Fluency with hard data** — wide (100s–1000s of features), tall (millions of records), and noisy, before the cleaning is done for you
+- **ML in production** — model integration into real applications, not just notebooks
+- **Statistical depth** — foundations that go beyond most engineering backgrounds
 
 ---
 
 ## 📈 Currently
 
-Seeking opportunities in bioinformatics/computational biology where I can build impactful tools for genomic research and human health.
+Open to roles in **Software Engineering**, **Data Engineering**, and **ML Engineering**. Interested in teams building data-intensive systems or ML-backed products.
 
-Previously: **Bioinformatician @ Gladstone Institutes (Corces Lab)** | **Bioinformatics Intern @ Pfizer**
+Previously: Bioinformatics Software Engineer @ Gladstone Institutes (Corces Lab) · Bioinformatics & Data Science Intern @ Pfizer 
+
+M.S. Bioinformatics, Boston University (4.0 GPA)
 
 ---
 
 ## 📡 Connect
 
-**[LinkedIn Profile](https://www.linkedin.com/in/mrugakshi-chidrawar-827127179/)** • **Email:** mrugakshi77@gmail.com
-
----
-
-*Bioinformatics • Genomics • Software Engineering • Data Visualization*
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/mrugakshi-chidrawar)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:mrugakshi77@gmail.com)
